@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FFEBB2;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+img{
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    border-radius: 0 0 300px 0;
+}
+
+
+#library-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 13rem;
+}
+
+#logo > img{
+    width: 8rem;
+    height: 16rem;
+}
+
+#heading{
+    margin-bottom: 2rem;
+}
+
+#login{
+    background-color: #FFC94A;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#login > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F1FADA;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    background-color: #F1FADA;
+}
+
+#login > div:hover{
+    background-color: #c2c9b2;
+    width: 202px;
+    height: 37px; 
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: Roboto Slab;
+    color: #333333;
+}

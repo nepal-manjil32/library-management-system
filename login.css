@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vw;
+}
+
+form{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: #222831;
+    border: 1px solid rgb(255, 255, 255);
+    width: 30%;
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+form .head{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.logo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin: 5vw 0 7vw 0;
+}
